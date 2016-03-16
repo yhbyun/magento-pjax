@@ -1,0 +1,23 @@
+{
+    "name": "dimitri-koenig/magento-pjax",
+    "description": "magento pjax extension",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "YongHun Byun",
+            "email": "yonghunbyun@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "map": [
+           ["app/code/community/Dk/MagentoPjax", "app/code/community/Dk/MagentoPjax"],
+           ["app/design/frontend/base/default/layout/dk_magentopjax.xml", "app/design/frontend/base/default/layout/dk_magentopjax.xml"],
+           ["app/etc/modules/Dk_MagentoPjax.xml", "app/etc/modules/Dk_MagentoPjax.xml"],
+           ["skin/frontend/base/default/css/nprogress.css", "skin/frontend/base/default/css/nprogress.css"],
+           ["skin/frontend/base/default/js/magento-pjax/nprogress.js", "skin/frontend/base/default/js/magento-pjax/nprogress.js"],
+           ["skin/frontend/base/default/js/magento-pjax/jquery.pjax.js", "skin/frontend/base/default/js/magento-pjax/jquery.pjax.js"],
+           ["skin/frontend/base/default/js/magento-pjax/run.js", "skin/frontend/base/default/js/magento-pjax/run.js"]
+        ]
+    }
+}
